@@ -1,6 +1,6 @@
 ﻿$(function() {
   var nickN = 177385;
-  var socket = io.connect("http://mintechnologies.com.mx:10012");
+  var socket = io.connect("http://uaa.mintechnologies.com.mx:10010");
 
   // Cuando la conección es exitosa le preguntamos al user
   // su nick mediante un prompt y lo emitimos al servidor
